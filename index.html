@@ -18,7 +18,38 @@
   <!-- Theme CSS -->
   <link href="css/freelancer.min.css" rel="stylesheet">
 
+ <style>
+
+  html::-webkit-scrollbar {
+    width: 20px;
+  }
+  html::-webkit-scrollbar-thumb {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #faebd7;
+  }
+  html::-webkit-scrollbar-track {
+    background-color: black;
+  }
  
+  .fade::-webkit-scrollbar {
+    width: 20px;
+  }
+  .fade::-webkit-scrollbar-thumb {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #faebd7;
+  }
+  .fade::-webkit-scrollbar-track {
+    background-color: black;
+  }
+  .portfolio .portfolio-item{
+    box-shadow:3px 3px 3px 5px rgba(250,235,215,0.2);
+  }
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 2rem;
+}
+ </style>
 </head>
 
 <body id="page-top" >
@@ -151,12 +182,45 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/ot_main.JPG"  style="height: 220px !important;" alt="준비중">
+            <img class="img-fluid" src="img/ot_main.JPG"  style="height: 220px !important;" alt="ot">
           </div>
         </div>
         <!-- Portfolio Item 5 -->
         <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/SC/loginSC.PNG"  style="height: 220px !important;"alt="sol1">
+          </div>
+        </div>
+        <!-- Portfolio Item 6 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/SD/sd1.PNG"  style="height: 220px !important;"alt="sol2">
+          </div>
+        </div>
+        <!-- Portfolio Item 7 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/RTDash.png"  style="height: 220px !important; width:auto; left: 20%; position: relative;"alt="sol3">
+          </div>
+        </div>
+        <!-- Portfolio Item 8 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
@@ -165,9 +229,9 @@
             <img class="img-fluid" src="img/dark3.jpg"  style="height: 220px !important;"alt="준비중">
           </div>
         </div>
-        <!-- Portfolio Item 6 -->
+        <!-- Portfolio Item 9 -->
         <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
@@ -359,7 +423,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" style="color: antiquewhite !important;">Save Alpaka</h2>
+                <h4 class="portfolio-modal-title text-secondary text-uppercase mb-0" style="color: antiquewhite !important;">Save Alpaka</h4>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   
@@ -404,7 +468,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" style="color: antiquewhite !important;">To Do List</h2>
+                <h4 class="portfolio-modal-title text-secondary text-uppercase mb-0" style="color: antiquewhite !important;">To Do List</h4>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   
@@ -547,16 +611,24 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"style="color: antiquewhite !important;background-size:auto !important;">준비중</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"style="color: antiquewhite !important;background-size:auto !important;">
+                  <small>(기업프로젝트)</small><br>솔루션1 콘솔 로그인</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   
                   <div class="divider-custom-line" style="background-color: antiquewhite !important;"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/dark3.jpg" alt="">
+                배경
+                <img class="img-fluid rounded mb-5" src="img/SC/graybg.jpg" alt="배경">
+                로그인
+                <img class="img-fluid rounded mb-5" src="img/SC/loginSC.PNG" alt="로그인">
+                비밀번호찾기
+                <img class="img-fluid rounded mb-5" src="img/SC/loginSC2.PNG" alt="비밀번호찾기">
+                회원가입
+                <img class="img-fluid rounded mb-5" src="img/SC/loginSCjoin.PNG" alt="회원가입">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">준비중입니다..</p>
+                <p class="mb-5">솔루션1의 콘솔 담당, 로그인/회원가입<br>[ java / photoshop / ftl / ExtJs ]</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   닫기
@@ -582,17 +654,121 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"style="color: antiquewhite !importantbackground-size:auto !important;;">준비중</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"style="color: antiquewhite !important; background-size:auto !important;">
+                  <small>(기업프로젝트)</small><br>솔루션2 admin console</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-line" style="background-color: antiquewhite !important;"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/dark3.jpg" alt="">
+                배경
+                <img class="img-fluid rounded mb-5" src="img/SD/base.png" alt="배경">
+                대시보드
+                <img class="img-fluid rounded mb-5" src="img/SD/sd1.PNG" alt="대시보드">
+                리스트
+                <img class="img-fluid rounded mb-5" src="img/SD/sd2.PNG" alt="리스트">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">솔루션1의 콘솔 담당, admin<br>[ java / photoshop / ExtJs / chartJs ]</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  닫기
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Portfolio Modal 7 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-labelledby="portfolioModal7Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+          </span>
+        </button>
+        <div class="modal-body text-center"style="background-image: url(img/dark2.jpg) !important;color: antiquewhite !important;background-size:cover !important;">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"style="color: antiquewhite !important; background-size:auto !important;">
+                  <small>(기업프로젝트)</small><br>솔루션3 dashboard</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line" style="background-color: antiquewhite !important;"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/RTDash.png" alt="리스트">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">extJs,chartJs활용 대시보드 제작</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  닫기
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Portfolio Modal 8 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-labelledby="portfolioModal8Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+          </span>
+        </button>
+        <div class="modal-body text-center"style="background-image: url(img/dark2.jpg) !important;color: antiquewhite !important;background-size:cover !important;">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"style="color: antiquewhite !important; background-size:auto !important;">
+                  준비중</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line" style="background-color: antiquewhite !important;"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/dark3.jpg" alt="리스트">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">준비중입니다..</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  닫기
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Portfolio Modal 9 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-labelledby="portfolioModal9Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+          </span>
+        </button>
+        <div class="modal-body text-center"style="background-image: url(img/dark2.jpg) !important;color: antiquewhite !important;background-size:cover !important;">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"style="color: antiquewhite !important; background-size:auto !important;">
+                  준비중</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line" style="background-color: antiquewhite !important;"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/dark3.jpg" alt="리스트">
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5">준비중입니다..</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
